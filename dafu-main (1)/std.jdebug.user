@@ -1,0 +1,29 @@
+
+GraphedExpression="(ES).timeStamp", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#a00909
+GraphedExpression="disturbance_flag[0]", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#ff0000
+GraphedExpression="disturbance", Color=#09a087
+GraphedExpression="disturbance_flag[1]", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#0984a0
+GraphedExpression="disturbance_flag[2]", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#0964a0
+GraphedExpression="disturbance_flag[3]", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#094fa0
+GraphedExpression="disturbance_flag[4]", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#0940a0
+OpenDocument="vibra.c", FilePath="C:/Users/28345/Desktop/RM/dafu-main (1)/dafu-main/ContrlSys/vibra.c", Line=0
+OpenDocument="ctr.c", FilePath="C:/Users/28345/Desktop/RM/dafu-main (1)/dafu-main/ContrlSys/ctr.c", Line=0
+OpenDocument="main.c", FilePath="C:/Users/28345/Desktop/RM/dafu-main (1)/dafu-main/Core/Src/main.c", Line=53
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=680, h=715, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=1, w=680, h=255, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=1998, h=290, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=1, y=0, w=291, h=290, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=610, h=971, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="5 s", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="0;72", PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="383;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="399;0"
+OpenWindow="Console", DockArea=BOTTOM, x=2, y=0, w=269, h=290, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[233;100;100;100;894]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" (ES).timeStamp";" disturbance_flag[0]";" disturbance";" disturbance_flag[1]";" disturbance_flag[2]";" disturbance_flag[3]";" disturbance_flag[4]"], ColWidths=[100;100;100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[207;134;100;100;100;144;110;144;126]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Refresh"], ColWidths=[169;214;297]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[27;27;27;26]
+WatchedExpression="flag", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="ES", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="disturbance_flag", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="disturbance", RefreshRate=5, Window=Watched Data 1
